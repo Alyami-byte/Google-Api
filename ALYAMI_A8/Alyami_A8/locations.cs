@@ -8,16 +8,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System.Net;
-/*
- * Abdul Alyami 
- * Mark Hodges
- * CPSC 340
- */
+
 namespace Alyami_A8
 {
     public static class locations
     {
-        private const String Key = "AIzaSyDqwY897llQMDzTOxG4OmBwBlPTsX-2SCY";
 
 
         [FunctionName("locations")]
